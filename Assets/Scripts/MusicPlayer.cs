@@ -2,27 +2,21 @@
 using System.Collections;
 
 public class MusicPlayer : MonoBehaviour {
-	static MusicPlayer instance = null;
+	public AudioClip loadSound;
 	
-	void Awake(){
-		Debug.Log ("Music player Awake " + GetInstanceID());
-		if (instance != null) {
-			Destroy (gameObject);
-			print ("Duplicate music player is self destructing!");
-		} else {
-			instance = this;
-			GameObject.DontDestroyOnLoad(gameObject);
-		}
+	private AudioSource music;
 	
-	}
-
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("Music player Start " + GetInstanceID());
+		GameObject.DontDestroyOnLoad(gameObject);
+		
+		music = GetComponent<AudioSource>();
+		music.clip = loadSound;
+		music.Play();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 }
