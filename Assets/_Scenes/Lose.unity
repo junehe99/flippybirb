@@ -106,7 +106,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -160.710007, y: -4.3354001}
+  m_AnchoredPosition: {x: -163, y: -6}
   m_SizeDelta: {x: 158.580002, y: 44.6710014}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &27064663
@@ -518,7 +518,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_BackGroundColor: {r: .384313732, g: .380392164, b: .380392164, a: .0196078438}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
