@@ -1,3 +1,3 @@
-#flippybirb
+#Starforce
 
-Advance through the screens by getting to checkpoints and not dying.
+Stay alive for as long as possible.
